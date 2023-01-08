@@ -96,14 +96,20 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
-            <Spinner
-                android:id="@+id/spinner2"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34475E"
+                android:onClick="openfile_btnClick"
+                android:text="Access Files"
+                android:textSize="10sp"
+                app:iconTint="#E37B7B" />
 
 
         </LinearLayout>
+
+
 
 
     </androidx.cardview.widget.CardView>
